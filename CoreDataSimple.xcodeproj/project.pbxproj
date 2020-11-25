@@ -14,8 +14,6 @@
 		C3F02821256D9EBE002D85E3 /* CoreDataSimple.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = C3F0281F256D9EBE002D85E3 /* CoreDataSimple.xcdatamodeld */; };
 		C3F02823256D9EC1002D85E3 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C3F02822256D9EC1002D85E3 /* Assets.xcassets */; };
 		C3F02826256D9EC1002D85E3 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C3F02824256D9EC1002D85E3 /* LaunchScreen.storyboard */; };
-		C3F02831256D9EC1002D85E3 /* CoreDataSimpleTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C3F02830256D9EC1002D85E3 /* CoreDataSimpleTests.swift */; };
-		C3F0283C256D9EC1002D85E3 /* CoreDataSimpleUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C3F0283B256D9EC1002D85E3 /* CoreDataSimpleUITests.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,7 +34,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		C3F02813256D9EBE002D85E3 /* CoreDataSimple.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CoreDataSimple.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		C3F02813256D9EBE002D85E3 /* CoreDataSimple.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; name = CoreDataSimple.app; path = "/Users/rebecapc/Developer/CoreDataSimple/build/Debug-iphoneos/CoreDataSimple.app"; sourceTree = "<absolute>"; };
 		C3F02816256D9EBE002D85E3 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		C3F02818256D9EBE002D85E3 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
 		C3F0281A256D9EBE002D85E3 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -45,12 +43,8 @@
 		C3F02822256D9EC1002D85E3 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		C3F02825256D9EC1002D85E3 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		C3F02827256D9EC1002D85E3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		C3F0282C256D9EC1002D85E3 /* CoreDataSimpleTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CoreDataSimpleTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		C3F02830256D9EC1002D85E3 /* CoreDataSimpleTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CoreDataSimpleTests.swift; sourceTree = "<group>"; };
-		C3F02832256D9EC1002D85E3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		C3F02837256D9EC1002D85E3 /* CoreDataSimpleUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CoreDataSimpleUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		C3F0283B256D9EC1002D85E3 /* CoreDataSimpleUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CoreDataSimpleUITests.swift; sourceTree = "<group>"; };
-		C3F0283D256D9EC1002D85E3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C3F0282C256D9EC1002D85E3 /* CoreDataSimpleTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; name = CoreDataSimpleTests.xctest; path = "/Users/rebecapc/Developer/CoreDataSimple/build/Debug-iphoneos/CoreDataSimpleTests.xctest"; sourceTree = "<absolute>"; };
+		C3F02837256D9EC1002D85E3 /* CoreDataSimpleUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; name = CoreDataSimpleUITests.xctest; path = "/Users/rebecapc/Developer/CoreDataSimple/build/Debug-iphoneos/CoreDataSimpleUITests.xctest"; sourceTree = "<absolute>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -82,49 +76,18 @@
 			isa = PBXGroup;
 			children = (
 				C3F02815256D9EBE002D85E3 /* Model */,
-				C3F0282F256D9EC1002D85E3 /* CoreDataSimpleTests */,
-				C3F0283A256D9EC1002D85E3 /* CoreDataSimpleUITests */,
-				C3F02814256D9EBE002D85E3 /* Products */,
+				C3F0284C256DA0CB002D85E3 /* View */,
+				C3F0284D256DA0D2002D85E3 /* Controller */,
 			);
-			sourceTree = "<group>";
-		};
-		C3F02814256D9EBE002D85E3 /* Products */ = {
-			isa = PBXGroup;
-			children = (
-				C3F02813256D9EBE002D85E3 /* CoreDataSimple.app */,
-				C3F0282C256D9EC1002D85E3 /* CoreDataSimpleTests.xctest */,
-				C3F02837256D9EC1002D85E3 /* CoreDataSimpleUITests.xctest */,
-			);
-			name = Products;
 			sourceTree = "<group>";
 		};
 		C3F02815256D9EBE002D85E3 /* Model */ = {
 			isa = PBXGroup;
 			children = (
-				C3F0284C256DA0CB002D85E3 /* View */,
-				C3F0284D256DA0D2002D85E3 /* Controller */,
 				C3F02827256D9EC1002D85E3 /* Info.plist */,
 				C3F0281F256D9EBE002D85E3 /* CoreDataSimple.xcdatamodeld */,
 			);
 			path = Model;
-			sourceTree = "<group>";
-		};
-		C3F0282F256D9EC1002D85E3 /* CoreDataSimpleTests */ = {
-			isa = PBXGroup;
-			children = (
-				C3F02830256D9EC1002D85E3 /* CoreDataSimpleTests.swift */,
-				C3F02832256D9EC1002D85E3 /* Info.plist */,
-			);
-			path = CoreDataSimpleTests;
-			sourceTree = "<group>";
-		};
-		C3F0283A256D9EC1002D85E3 /* CoreDataSimpleUITests */ = {
-			isa = PBXGroup;
-			children = (
-				C3F0283B256D9EC1002D85E3 /* CoreDataSimpleUITests.swift */,
-				C3F0283D256D9EC1002D85E3 /* Info.plist */,
-			);
-			path = CoreDataSimpleUITests;
 			sourceTree = "<group>";
 		};
 		C3F0284C256DA0CB002D85E3 /* View */ = {
@@ -234,7 +197,7 @@
 				Base,
 			);
 			mainGroup = C3F0280A256D9EBE002D85E3;
-			productRefGroup = C3F02814256D9EBE002D85E3 /* Products */;
+			productRefGroup = C3F0280A256D9EBE002D85E3;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
@@ -288,7 +251,6 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				C3F02831256D9EC1002D85E3 /* CoreDataSimpleTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -296,7 +258,6 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				C3F0283C256D9EC1002D85E3 /* CoreDataSimpleUITests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
